@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: #24252a;
+    list-style: none;
 }
 
 li, a, button, p {
@@ -64,17 +65,24 @@ footer {
     display:flex;
 }
 
-.about {
+.contact {
     background-color: burlywood;
     flex-grow: 1;
 }
 
-.home {
+.skills {
     background-color: greenyellow;
     flex-grow: 1;
+    padding: 10px;
+}
+
+.skills ul li {
+    background-color: greenyellow;
+    color: black;
 }
 
 .copyright {
     background-color: orangered;
     align-items: center;
 }
+
