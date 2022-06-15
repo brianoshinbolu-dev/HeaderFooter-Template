@@ -70,10 +70,20 @@ footer {
     flex-grow: 1;
 }
 
+.contact h3 {
+    background-color: burlywood;
+    font-size: 30px;
+}
+
 .skills {
     background-color: greenyellow;
     flex-grow: 1;
     padding: 10px;
+}
+
+.skills h3 {
+    background-color: greenyellow;
+    font-size: 30px;
 }
 
 .skills ul li {
@@ -83,6 +93,7 @@ footer {
 
 .copyright {
     background-color: orangered;
-    align-items: center;
+    text-align: center;
+    font-size: large;
 }
 
